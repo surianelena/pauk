@@ -1,6 +1,7 @@
 p{
     color: #262626;
-    font-family: Arial;
+    font: 14px/1.5  Arial, Verdana,  SansSerif,Helvetica ;
+    text-indent: 35px;
 }
 
 .lists{
@@ -9,6 +10,16 @@ p{
 
 #header{
     color: #c23636;
+    font-family: Arial, Verdana,  SansSerif,Helvetica;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: Arial, Verdana,  SansSerif,Helvetica;
+    font-size: 24px;
+    text-align: center;
 }
 
 p span {
@@ -17,4 +28,20 @@ p span {
 
 h2, h3 {
     color: darkcyan;
+}
+.bold-text {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+    font-weight: bold;
+}
+
+tr {
+    text-align: center;
+}
+
+.left-column {
+    text-align: left;
 }
