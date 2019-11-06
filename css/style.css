@@ -4,8 +4,12 @@ p{
     text-indent: 35px;
 }
 
-.lists{
-    color: #696969; 
+ol {
+    list-style: upper-alpha inside;
+}
+ul {
+
+    list-style: inside url("../images/yes.png");
 }
 
 #header{
@@ -24,6 +28,7 @@ h2 {
 
 p span {
     color: aqua;
+    text-decoration: underline;
 }
 
 h2, h3 {
@@ -44,4 +49,12 @@ tr {
 
 .left-column {
     text-align: left;
+}
+
+a {
+    color: bisque;
+}
+
+a:hover {
+    text-decoration: none;
 }
