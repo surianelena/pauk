@@ -58,3 +58,9 @@ a {
 a:hover {
     text-decoration: none;
 }
+
+.border{
+    border-width: 2px;
+    border-style: solid;
+    border-color: antiquewhite;
+}
