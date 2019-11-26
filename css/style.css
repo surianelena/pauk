@@ -131,3 +131,14 @@ a:hover {
     top: 50%;
     margin-top: -92px;
 }
+
+#test {
+    display: block;
+    margin: 0 auto;
+}
+
+#order {
+    margin: 20px auto;
+    width: 212px;
+    height: 88px;
+}
