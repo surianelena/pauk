@@ -6,36 +6,51 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>form</title>
+    <link href="css/form.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <h1>Форма</h1>
-    <form autocomplete="off" action="#" method="post">
-        <p><label for="login">Логин</label></p>
-        <input type="text" name="login" size="25" maxlength="10" id="login">
-        <p><label for="password">Пароль</label></p>
-        <input type="password" name="password" size="25" maxlength="10" id="password">
-        <p>Оцените наш сайт</p>
-        <label><input type="radio" name="evaluation" value="exellent" checked="checked" > Отлично</label> </br>
-        <label><input type="radio" name="evaluation" value="well"> Хорошо </label></br>
-        <label><input type="radio" name="evaluation" value="Bad"> Плохо</label> </br>
-        <p>Как вы проводите свободное время?</p>
-        <label><input type="checkbox" name="leisure[]" value="read" checked="checked">Читаю книги </label> </br>
-        <label><input type="checkbox" name="leisure[]" value="code"> Код</label></br>
-        <label><input type="checkbox" name="leisure[]" value="language"> Изучаю языки </label></br>
-        <label><input type="checkbox" name="leisure[]" value="walking"> Гуляю </label> </br>
-        <p><label for="musikstyles">Какую музыку вы слушаете? </label></p>
-        <select name="musikstyles[]" multiple="multiple" size="5" id="musikstyles">
-            <option value="1">Рок</option>
-            <option value="2">Поп</option>
-            <option value="3">Металл</option>
-            <option value="4">Классика</option>
-            <option value="5">Джаз</option>
-        </select>
-        <p><label for="interestes">Ваши интересы</label></p>
-        <textarea id="interestes" name="interestes" rows="4" cols="30"> Write here</textarea> <br>
-        <!-- (КНОПКИ ) <input type="submit" name="submit" value="Отправить" >
-        <input type="reset" name="reset" value="reset">
-        <input type="button" name="button" value="button"> --!>
-        <input type="image" name="send" src="images/send_btn.png">
+    <div id="form">
+        <h1>Форма</h1>
+        <form autocomplete="off" action="#" method="post">
+            <div class="row">
+                <p><label for="login">Логин</label></p>
+                <input type="text" name="login" size="25" maxlength="10" id="login">
+            </div>
+            <div class="row">
+                <p><label for="password">Пароль</label></p>
+                <input type="password" name="password" size="25" maxlength="10" id="password">
+            </div>
+            <div class="row">
+                <p>Оцените наш сайт</p>
+                <label><input type="radio" name="evaluation" value="exellent" checked="checked" > Отлично</label> </br>
+                <label><input type="radio" name="evaluation" value="well"> Хорошо </label></br>
+                <label><input type="radio" name="evaluation" value="Bad"> Плохо</label> </br>
+            </div>
+            <div class="row">
+                <p>Как вы проводите свободное время?</p>
+                <label><input type="checkbox" name="leisure[]" value="read" checked="checked">Читаю книги </label> </br>
+                <label><input type="checkbox" name="leisure[]" value="code"> Код</label></br>
+                <label><input type="checkbox" name="leisure[]" value="language"> Изучаю языки </label></br>
+                <label><input type="checkbox" name="leisure[]" value="walking"> Гуляю </label> </br>
+                <p><label for="musikstyles">Какую музыку вы слушаете? </label></p>
+            </div>
+            <div class="row">
+                <select name="musikstyles[]" multiple="multiple" size="5" id="musikstyles">
+                <option value="1">Рок</option>
+                <option value="2">Поп</option>
+                <option value="3">Металл</option>
+                <option value="4">Классика</option>
+                <option value="5">Джаз</option>
+            </select>
+            </div>
+            <div class="row">
+                <p><label for="interestes">Ваши интересы</label></p>
+                <textarea id="interestes" name="interestes" rows="4" cols="45"> Write here</textarea> <br>
+            </div>
+            <!-- (КНОПКИ ) <input type="submit" name="submit" value="Отправить" >
+            <input type="reset" name="reset" value="reset">
+            <input type="button" name="button" value="button"> --!>
+            <input type="image" name="send" src="images/send_btn.png">
+    </div>
 </body>
 </html>

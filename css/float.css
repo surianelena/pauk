@@ -1,0 +1,47 @@
+#wrapper {
+    width: 900px;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#header {
+    height: 100px ;
+    background-color: antiquewhite ;
+    margin-bottom: 10px;
+
+}
+
+#content {
+    width: 480px;
+    height: 300px ;
+    background-color: bisque;
+    margin: 0 auto;
+
+}
+
+#sidebar-left {
+    float: left;
+    width: 200px;
+    height: 400px ;
+    background-color: darkcyan ;
+
+}
+
+#sidebar-right {
+    float: right;
+    width: 200px;
+    height: 400px ;
+    background-color: lightslategray ;
+}
+
+#footer {
+    margin-top: 10px;
+    height: 100px ;
+    background-color: blanchedalmond ;
+
+}
+
+.clear {
+    clear: both;
+}

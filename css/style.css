@@ -1,34 +1,38 @@
-p{
+body{
     color: #262626;
-    font: 14px/1.5  Arial, Verdana,  SansSerif,Helvetica ;
+    font: 14px/1.5    Arial, Verdana, Tahoma, SansSerif,Helvetica;
+    margin: 0;
+    background: #e2e2e2 url(../images/main_bg.png);
+}
+p {
     text-indent: 35px;
 }
 
 ol {
     list-style: upper-alpha inside;
+
 }
 ul {
 
     list-style: inside url("../images/yes.png");
 }
 
+
 #header{
     color: #c23636;
-    font-family: Arial, Verdana,  SansSerif,Helvetica;
-    font-size: 30px;
     text-align: center;
 
 }
 
 h2 {
-    font-family: Arial, Verdana,  SansSerif,Helvetica;
-    font-size: 24px;
+
     text-align: center;
 }
 
 p span {
     color: aqua;
     text-decoration: underline;
+
 }
 
 h2, h3 {
@@ -43,12 +47,32 @@ h2, h3 {
     font-weight: bold;
 }
 
+table {
+    width: 650px;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    color: #606060;
+    margin: 0 auto;
+}
+
+td, th {
+    border: 1px solid lightslategray;
+    height: 50px;
+    color: #9c9c9c;
+}
+
+th {
+    background-color: lightgray;
+}
+
+
 tr {
     text-align: center;
 }
 
 .left-column {
     text-align: left;
+    padding-left: 15px;
 }
 
 a {
@@ -59,8 +83,51 @@ a:hover {
     text-decoration: none;
 }
 
-.border{
-    border-width: 2px;
-    border-style: solid;
-    border-color: antiquewhite;
+#box {
+    border: 2px solid lightslategray;
+    width: 700px;
+    overflow: hidden;
+    height: 100px;
+}
+
+#box2 {
+    border: 2px solid #ccc;
+    min-width: 700px;
+    max-width: 1100px;
+}
+
+#content {
+    width: 700px;
+    border: 1px solid #cccccc;
+    padding: 30px 40px;
+    margin: 20px auto;
+    background-color: white;
+    position: relative;
+}
+
+#author {
+    float: right;
+}
+
+#free {
+    width: 155px;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#new {
+    position: absolute;
+    top: -6px;
+    left: -6px;
+}
+
+#contact {
+    width: 44px;
+    height: 184px;
+    position: fixed;
+    left: 0px;
+    top: 50%;
+    margin-top: -92px;
 }
